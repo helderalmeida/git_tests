@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+
+    <link href="preetyColors.css" rel="stylesheet" />
+    <title></title>
+</head>
+<body>
+    <table id="convocados">
+        <thead>
+            <tr>
+                <td colspan="4">Convocados 5</td>
+				<td></td>
+            </tr>
+            <tr>
+                <td colspan="2">DI/USINF/IT/FADEUP</td>
+                <td colspan="2">UMSU/INESC</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Adriano Teixeira</td>
+                <td><input type="checkbox" id="AT" data-gk="n"/></td>
+                <td>Delfim Costa</td>
+                <td><input type="checkbox" id="DC" data-gk="n"/></td>
+            </tr>
+            <tr>
+                <td>André Romão</td>
+                <td><input type="checkbox" id="AR" data-gk="n"/></td>
+                <td>José Costa</td>
+                <td><input type="checkbox" id="JC" data-gk="n"/></td>
+            </tr>
+            <tr>
+                <td>António Sousa</td>
+                <td><input type="checkbox" id="AS" data-gk="n"/></td>
+                <td>Leandro Gonçalves</td>
+                <td><input type="checkbox" id="LG" data-gk="n"/></td>
+            </tr>
+            <tr>
+                <td>Hélder Almeida</td>
+                <td><input type="checkbox" id="HA" data-gk="n"/></td>
+                <td>Nuno Dias</td>
+                <td><input type="checkbox" id="ND" data-gk="n"/></td>
+            </tr>
+            <tr>
+                <td>Jorge Semblano</td>
+                <td><input type="checkbox" id="JS" data-gk="n"/></td>
+                <td>Rúben Moreira</td>
+                <td><input type="checkbox" id="RM" data-gk="y"/></td>
+            </tr>
+            <tr>
+                <td>Marco Nunes</td>
+                <td><input type="checkbox" id="MN" data-gk="n"/></td>
+                <td>Tiago Pires</td>
+                <td><input type="checkbox" id="TP" data-gk="n"/></td>
+            </tr>
+            <tr>
+                <td>Filipe Montenegro</td>
+                <td><input type="checkbox" id="FM" data-gk="n"/></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Paulo Costa</td>
+                <td><input type="checkbox" id="PC" data-gk="y"/></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Rui Telmo</td>
+                <td><input type="checkbox" id="RT" data-gk="y"/></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">
+                    <input type="button" onclick="randomizeIt()" value="Gerar Equipas" />
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+    <br />
+
+
+    <br />
+    <br />
+    <div class="container">
+        <table id="results">
+            <thead>
+                <tr>
+                    <td class="teamA">"Os Coletes"</td>
+                    <td class="teamB">"Os 100 Coletes"</td>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+
+    <script src="clientSideMagic.js"></script>
+</body>
+</html>
